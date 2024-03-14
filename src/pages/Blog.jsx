@@ -20,7 +20,6 @@ import { getInitialTheme } from "../utils/FileManager.utils";
 import BlogFooter from "../components/Footer/BlogFooter";
 import HorizontalRuler from "../components/Util/HorizontalRuler";
 import BlogNavbar from "../components/Navbar/BlogNavbar";
-import { firebaseAnalytics } from "../firebaseConfig";
 import MetaDecorator from "../components/Util/MetaDecorator";
 import metaThumbnail from "../data/images/meta/blog.png";
 
@@ -34,7 +33,6 @@ const blogNavbar = require("../data/blogNavbar.json");
 const Blog = () => {
   const [isDark, setIsDark] = useState(getInitialTheme());
 
-  firebaseAnalytics.logEvent("blog_visited");
 
   const noSSRContent = blog.blogItems.map((blogItem) => (
     <BlogItem

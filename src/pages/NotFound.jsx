@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "../index.sass";
 import CustomButton from "../components/CustomButton";
 import { notFoundStyle, customButton, noMargin } from "../stylesheets/NotFound.module.sass";
-import { firebaseAnalytics } from "../firebaseConfig";
+// import { firebaseAnalytics } from "../firebaseConfig";
 import MetaDecorator from "../components/Util/MetaDecorator";
 import metaThumbnail from "../data/images/meta/notFound.png";
 
@@ -10,7 +10,7 @@ const notFound = require("../data/notFound.json");
 
 const NotFound = () => {
   useEffect(() => {
-    firebaseAnalytics.logEvent("404_visited");
+    // firebaseAnalytics.logEvent("404_visited");
   });
 
   return (

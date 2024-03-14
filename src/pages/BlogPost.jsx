@@ -14,7 +14,7 @@ import BlogFooter from "../components/Footer/BlogFooter";
 import HorizontalRuler from "../components/Util/HorizontalRuler";
 import LoadingIndicator from "../components/Util/LoadingIndicator";
 import BlogNavbar from "../components/Navbar/BlogNavbar";
-import { firebaseAnalytics } from "../firebaseConfig";
+// import { firebaseAnalytics } from "../firebaseConfig";
 import BlogPostMarkdown from "../components/Blog/BlogPostMarkdown";
 import GrowingCircleAnimation from "../components/Animations/GrowingCircleAnimation";
 
@@ -40,14 +40,14 @@ const BlogPost = () => {
 
   useEffect(() => {
     if (!redirect) {
-      firebaseAnalytics.logEvent(`${blogPostFileName}_visited`);
+      // firebaseAnalytics.logEvent(`${blogPostFileName}_visited`);
 
       fetch(hashedBlogFileLink.default)
         .then((res) => res.text())
         .then((response) => setPost(response))
         .catch((err) => setPost(err));
     } else {
-      firebaseAnalytics.logEvent(`redirected_to_404_${blogPostFileName}`);
+      // firebaseAnalytics.logEvent(`redirected_to_404_${blogPostFileName}`);
     }
   }, [hashedBlogFileLink, redirect, blogPostFileName]);
 

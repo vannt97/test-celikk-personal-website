@@ -14,7 +14,7 @@ import Projects from "../components/Section/Projects";
 import Skills from "../components/Section/Skills";
 import BlogShowcase from "../components/Section/BlogShowcase";
 import Landing from "../components/Section/Landing";
-import { firebaseAnalytics } from "../firebaseConfig";
+// import { firebaseAnalytics } from "../firebaseConfig";
 import MetaDecorator from "../components/Util/MetaDecorator";
 import metaThumbnail from "../data/images/meta/home.png";
 
@@ -30,7 +30,7 @@ const Home = () => {
   );
 
   useEffect(() => {
-    firebaseAnalytics.logEvent("homepage_visited");
+    // firebaseAnalytics.logEvent("homepage_visited");
   });
 
   return (

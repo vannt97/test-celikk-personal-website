@@ -1,4 +1,4 @@
-# Deprecation Warning
+<!-- # Deprecation Warning
 
 This project is deprecated since 27.09.2021. Please refer to https://github.com/celikkoseoglu/celikk-personal-website-nextjs to see my latest Personal Website project.
 
@@ -78,4 +78,4 @@ If you copied the whole thing, giving some credit would be nice but I can't forc
 
 <hr/>
 
-[Previous Personal Website](https://github.com/celikkoseoglu/personalwebsite)
+[Previous Personal Website](https://github.com/celikkoseoglu/personalwebsite) -->
