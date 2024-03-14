@@ -26,7 +26,7 @@ deployScripts/rollup/results.json
 .grunt
 _SpecRunner.html
 __benchmarks__
-build/
+# build/
 remote-repo/
 coverage/
 .module-cache

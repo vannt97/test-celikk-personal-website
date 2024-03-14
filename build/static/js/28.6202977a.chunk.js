@@ -1,0 +1,2 @@
+(this["webpackJsonpcelikk-personal-website"]=this["webpackJsonpcelikk-personal-website"]||[]).push([[28],{966:function(e,s,t){"use strict";t.r(s),s.default=t.p+"static/media/PhotoSec.0be22a3b.svg"}}]);
+//# sourceMappingURL=28.6202977a.chunk.js.map

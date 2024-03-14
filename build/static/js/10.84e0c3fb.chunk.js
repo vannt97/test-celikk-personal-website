@@ -1,0 +1,2 @@
+(this["webpackJsonpcelikk-personal-website"]=this["webpackJsonpcelikk-personal-website"]||[]).push([[10],{608:function(e){e.exports=JSON.parse('{"pageDescription":"This page is under construction. It is one of the future pages that I\'m gonna build. Currently there is no way for a search robot to get here. (Because there are no links!)","pageTitle":"CK - Interactive Resume","metaImageAlt":"The image contains the the picture of the developer\'s CV. There is a lot of text."}')}}]);
+//# sourceMappingURL=10.84e0c3fb.chunk.js.map
